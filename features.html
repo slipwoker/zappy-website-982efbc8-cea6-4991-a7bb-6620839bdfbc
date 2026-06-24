@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0505761428" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0505761428';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -850,19 +850,19 @@
                 <div class="features-intro-statements">
                     <div class="features-intro-statement">
                         <div class="features-intro-statement-icon-wrapper">
-                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                         </div>
                         <span class="features-intro-statement-text">בהירות מסרים — המבקר מבין בדיוק מה מציעים לו תוך 3 שניות</span>
                     </div>
                     <div class="features-intro-statement">
                         <div class="features-intro-statement-icon-wrapper">
-                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
                         </div>
                         <span class="features-intro-statement-text">אמינות ושקיפות — אלמנטים בוני אמון שמגבירים את שיעור ההקלקה</span>
                     </div>
                     <div class="features-intro-statement">
                         <div class="features-intro-statement-icon-wrapper">
-                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+                            <svg class="features-intro-statement-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg>
                         </div>
                         <span class="features-intro-statement-text">התאמה מלאה לקמפיין — חוויית גלישה אחידה מהפיד ועד לעמוד הנחיתה</span>
                     </div>
@@ -884,11 +884,11 @@
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="featuresIntroDividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#F0EEFF"/>
-                    <stop offset="100%" stop-color="#C8D5FF"/>
+                    <stop offset="0%" stop-color="#F0EEFF"></stop>
+                    <stop offset="100%" stop-color="#C8D5FF"></stop>
                 </linearGradient>
             </defs>
-            <path d="M0,80 L0,60 L1200,0 L1200,80 Z" fill="#F7F4FF"/>
+            <path d="M0,80 L0,60 L1200,0 L1200,80 Z" fill="#F7F4FF"></path>
         </svg>
     </div>
 
@@ -914,7 +914,7 @@
       <!-- Card 1 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20v-4"></path></svg>
         </div>
         <h3 class="features-features-section__card-title">מסרים ממוקדי קמפיין</h3>
         <p class="features-features-section__card-text">כל עמוד ננעל אוטומטית על קהל היעד שהגיע מהפלטפורמה החברתית, עם התאמה דינמית של הטקסט והקריאייטיב.</p>
@@ -923,7 +923,7 @@
       <!-- Card 2 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
         </div>
         <h3 class="features-features-section__card-title">קריאה לפעולה מובילת לידים</h3>
         <p class="features-features-section__card-text">כפתורים חכמים שמשנים צורה ומיקום בהתאם למקור התנועה — מגדילים המרה בעד 40% לעומת עמודי נחיתה סטטיים.</p>
@@ -932,7 +932,7 @@
       <!-- Card 3 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
         </div>
         <h3 class="features-features-section__card-title">רגעי הוכחה חברתית</h3>
         <p class="features-features-section__card-text">עדויות לקוחות, מספרי עוקבים ונתוני מעורבות מוטמעים בזמן אמת — בונים אמון תוך שניות מרגע הנחיתה.</p>
@@ -941,7 +941,7 @@
       <!-- Card 4 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
         </div>
         <h3 class="features-features-section__card-title">קריאות מושלמת במובייל</h3>
         <p class="features-features-section__card-text">מעל 85% מהתנועה החברתית מגיעה מהנייד — כל עמוד נבנה Mobile-First עם טעינה מהירה וגלילה חלקה.</p>
@@ -950,7 +950,7 @@
       <!-- Card 5 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/><line x1="12" y1="22" x2="12" y2="15.5"/><polyline points="22 8.5 12 15.5 2 8.5"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline></svg>
         </div>
         <h3 class="features-features-section__card-title">שפה ויזואלית מותגית</h3>
         <p class="features-features-section__card-text">צבעים, טיפוגרפיה ואנימציות שנשארות נאמנות למותג שלך — לא עוד תבניות גנריות שנראות כמו כולם.</p>
@@ -959,7 +959,7 @@
       <!-- Card 6 -->
       <article class="features-features-section__card">
         <div class="features-features-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
         </div>
         <h3 class="features-features-section__card-title">היררכיית תוכן חכמה</h3>
         <p class="features-features-section__card-text">מערכת שמנתחת את התנהגות הגולש ומשנה את סדר הבלוקים בזמן אמת — מה שחשוב תמיד נמצא למעלה.</p>
@@ -971,7 +971,7 @@
   <!-- Bottom Scalloped SVG Divider -->
   <div class="features-features-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,50 Q40,35 80,48 T160,42 Q200,50 240,38 T320,45 Q360,38 400,50 T480,42 Q520,48 560,35 T640,45 Q680,38 720,50 T800,40 Q840,48 880,35 T960,45 Q1000,38 1040,50 T1120,40 Q1160,48 1200,35 L1200,80 Z" fill="var(--bg-dark)"/>
+      <path d="M0,80 L0,50 Q40,35 80,48 T160,42 Q200,50 240,38 T320,45 Q360,38 400,50 T480,42 Q520,48 560,35 T640,45 Q680,38 720,50 T800,40 Q840,48 880,35 T960,45 Q1000,38 1040,50 T1120,40 Q1160,48 1200,35 L1200,80 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 </section>
@@ -993,8 +993,8 @@
         <div class="features-process-section__step-card">
           <div class="features-process-section__step-icon-wrapper">
             <svg data-element-type="icon" data-icon-type="svg" class="features-process-section__step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
-              <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
             </svg>
           </div>
           <h3 class="features-process-section__step-title">משיכה ממוקדת מהפיד</h3>
@@ -1011,8 +1011,8 @@
         <div class="features-process-section__step-card">
           <div class="features-process-section__step-icon-wrapper">
             <svg data-element-type="icon" data-icon-type="svg" class="features-process-section__step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <path d="M12 6v6l4 2"/>
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
             </svg>
           </div>
           <h3 class="features-process-section__step-title">התאמה מיידית של המסר</h3>
@@ -1029,7 +1029,7 @@
         <div class="features-process-section__step-card">
           <div class="features-process-section__step-icon-wrapper">
             <svg data-element-type="icon" data-icon-type="svg" class="features-process-section__step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/>
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"></path>
             </svg>
           </div>
           <h3 class="features-process-section__step-title">בניית אמון בשניות</h3>
@@ -1046,11 +1046,11 @@
         <div class="features-process-section__step-card">
           <div class="features-process-section__step-icon-wrapper">
             <svg data-element-type="icon" data-icon-type="svg" class="features-process-section__step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-              <polyline points="14 2 14 8 20 8"/>
-              <line x1="16" y1="13" x2="8" y2="13"/>
-              <line x1="16" y1="17" x2="8" y2="17"/>
-              <polyline points="10 9 9 9 8 9"/>
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
             </svg>
           </div>
           <h3 class="features-process-section__step-title">הנעה לפעולה ברורה</h3>
@@ -1065,17 +1065,17 @@
     <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="process-fade-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0"/>
-          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0"></stop>
+          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
         </linearGradient>
         <filter id="process-blur-mesh" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8"></feGaussianBlur>
         </filter>
       </defs>
-      <rect x="0" y="0" width="1200" height="120" fill="url(#process-fade-gradient)"/>
-      <ellipse cx="600" cy="60" rx="400" ry="40" fill="var(--accent)" opacity="0.15" filter="url(#process-blur-mesh)"/>
-      <ellipse cx="200" cy="80" rx="250" ry="30" fill="var(--primary)" opacity="0.08" filter="url(#process-blur-mesh)"/>
-      <ellipse cx="1000" cy="70" rx="300" ry="35" fill="var(--secondary)" opacity="0.1" filter="url(#process-blur-mesh)"/>
+      <rect x="0" y="0" width="1200" height="120" fill="url(#process-fade-gradient)"></rect>
+      <ellipse cx="600" cy="60" rx="400" ry="40" fill="var(--accent)" opacity="0.15" filter="url(#process-blur-mesh)"></ellipse>
+      <ellipse cx="200" cy="80" rx="250" ry="30" fill="var(--primary)" opacity="0.08" filter="url(#process-blur-mesh)"></ellipse>
+      <ellipse cx="1000" cy="70" rx="300" ry="35" fill="var(--secondary)" opacity="0.1" filter="url(#process-blur-mesh)"></ellipse>
     </svg>
   </div>
 </section>
@@ -1138,7 +1138,7 @@
   <!-- Bottom Divider: Angled overlap with upcoming CTA color -->
   <div class="features-reviews-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="0,120 1200,120 1200,105 0,0" fill="var(--primary)"/>
+      <polygon points="0,120 1200,120 1200,105 0,0" fill="var(--primary)"></polygon>
     </svg>
   </div>
 </section>
@@ -1189,25 +1189,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:moranc2610@gmail.com">moranc2610@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0505761428">0505761428</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+            <span class="contact-text">ASHDOD </span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1240,7 +1238,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0505761428" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

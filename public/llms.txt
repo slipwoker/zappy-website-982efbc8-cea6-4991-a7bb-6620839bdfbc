@@ -44,7 +44,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: moranc2610@gmail.com
+- Phone: 0505761428
+- Phone (tel): tel:0505761428
+- Address: ASHDOD 
 
 ### Contact form
 - URL: https://example.com/contact
@@ -52,11 +55,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
-  - `phone` (tel)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
