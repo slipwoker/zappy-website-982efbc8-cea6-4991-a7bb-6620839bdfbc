@@ -1,4 +1,4 @@
-# Morani — Generative Engine Optimization Map
+# Moran cohen — Generative Engine Optimization Map
 
 > A social media landing page designed to capture leads or drive engagement from social media traffic. The page is intended to serve as a focused destination for visitors arriving from social platforms.
 
@@ -65,7 +65,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Morani
+## About Moran cohen
 A social media landing page designed to capture leads or drive engagement from social media traffic. The page is intended to serve as a focused destination for visitors arriving from social platforms.
 
 ## Target Audience
