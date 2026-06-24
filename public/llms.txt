@@ -1,0 +1,82 @@
+# Morani — Generative Engine Optimization Map
+
+> A social media landing page designed to capture leads or drive engagement from social media traffic. The page is intended to serve as a focused destination for visitors arriving from social platforms.
+
+---
+
+## Pages
+
+### בית
+https://morani-982efbc8.zappy5.app
+הנחיתה שלך מהרשתות החברתיות מקבלת בית ממוקד. הפוך גולשים ללקוחות עם דף מעוצב שמושך, משכנע ומניע לפעולה. הצטרף עוד היום ל-Morani.
+
+### תכונות
+https://morani-982efbc8.zappy5.app/features
+גלה תכונות מתקדמות שהופכות ניהול מדיה חברתית למשחק ילדים. מאוטומציה חכמה ועד אנליטיקה מעמיקה, Morani נותנת לך את הכוח לצמוח בכל פלטפורמה.
+
+### אודות
+https://morani-982efbc8.zappy5.app/about
+אנחנו Morani, צוות של יוצרים ואסטרטגים שמאמינים שכל משפיען יכול לפרוץ גבולות. בוא להכיר את החזון שמאחורי הפלטפורמה שתשנה את הדרך בה אתה נתפס ברשת.
+
+### צור קשר
+https://morani-982efbc8.zappy5.app/contact
+יש לך רעיון, שאלה או סתם רצון להתייעץ? צור קשר עם Morani וקבל מענה מהיר שיקדם את הנוכחות שלך בפלטפורמות החברתיות. אנחנו כאן בשבילך.
+
+### תודה רבה | Morani
+https://morani-982efbc8.zappy5.app/thank-you
+Morani - תודה רבה | Morani
+
+## Legal & Policy
+
+### Privacy Policy
+https://morani-982efbc8.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://morani-982efbc8.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://morani-982efbc8.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://morani-982efbc8.zappy5.app/contact
+- Endpoint: https://morani-982efbc8.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Morani
+A social media landing page designed to capture leads or drive engagement from social media traffic. The page is intended to serve as a focused destination for visitors arriving from social platforms.
+
+## Target Audience
+- משפיעני רשתות חברתיות
+- בעלי עסקים קטנים
+- משווקים פרילנסרים
+
+## Industry
+Social Media
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://morani-982efbc8.zappy5.app/sitemap.xml
+- Robots: https://morani-982efbc8.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://morani-982efbc8.zappy5.app/llms-full.txt
