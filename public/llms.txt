@@ -47,7 +47,7 @@ Information about WCAG compliance and accessibility features.
 - Email: moranc2610@gmail.com
 - Phone: 0505761428
 - Phone (tel): tel:0505761428
-- Address: ASHDOD 
+- Address: אסתר המלכה, ASHDOD 
 
 ### Contact form
 - URL: https://example.com/contact
