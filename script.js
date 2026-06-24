@@ -1369,6 +1369,46 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+// Optional: Intersection Observer for reveal animation on scroll
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.gallery-card');
+  
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry, index) {
+        if (entry.isIntersecting) {
+          // Add staggered animation delay
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+    
+    cards.forEach(function(card, index) {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(30px)';
+      card.style.transition = 'opacity 0.6s ease, transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+      card.style.transitionDelay = (index % 3) * 0.1 + 's';
+      observer.observe(card);
+    });
+  } else {
+    // Fallback for browsers without Intersection Observer
+    cards.forEach(function(card) {
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    });
+  }
+});
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
